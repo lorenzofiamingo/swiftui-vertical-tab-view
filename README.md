@@ -44,7 +44,7 @@ VTabView {
 
 ## Limitation
 
-Underline UIScrollView inside default `TabView` bounces in all directions. 
+`TabView` bounces in all directions by default. 
 [Introspect](https://github.com/siteline/SwiftUI-Introspect) could be a rapid solution, but I'd rather prefer to make use of `UIViewRepresentable`
 
 `VTabView` is meant to be used with `.tabViewStyle(PageTabViewStyle())` but you can also use `DefaultTabViewStyle`. 
