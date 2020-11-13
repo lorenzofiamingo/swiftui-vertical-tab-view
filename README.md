@@ -45,7 +45,6 @@ VTabView {
 ## Limitation
 
 `TabView` bounces in all directions by default. 
-[Introspect](https://github.com/siteline/SwiftUI-Introspect) could be a rapid solution, but I'd rather prefer to make use of `UIViewRepresentable`
 
 `VTabView` is meant to be used with `.tabViewStyle(PageTabViewStyle())` but you can also use `DefaultTabViewStyle`. 
 Only remember that tab items will not have the orientation you would probably like to obtain. 
