@@ -59,3 +59,6 @@ A workaround for this would be in tabItem to not use `Text` but only an `Image` 
 ## Another projects
 
 [SharedObject 🍱](https://github.com/lorenzofiamingo/SwiftUI-SharedObject)
+[CachedAsyncImage 🗃️](https://github.com/lorenzofiamingo/SwiftUI-CachedAsyncImage)
+
+You can also move index to the right
