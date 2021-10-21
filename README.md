@@ -56,7 +56,7 @@ A workaround for this would be in tabItem to not use `Text` but only an `Image` 
 2. Paste the repository URL (`https://github.com/lorenzofiamingo/SwiftUI-VerticalTabView`) and click **Next**.
 3. Click **Finish**.
 
-## Another projects
+## Other projects
 
 [SharedObject 🍱](https://github.com/lorenzofiamingo/SwiftUI-SharedObject)
 
