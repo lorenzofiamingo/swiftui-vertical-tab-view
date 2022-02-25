@@ -1,4 +1,4 @@
-# VerticalTabView 🔝
+# SwiftUI VerticalTabView 🔝
 `VTabView` is a native way to display paged vertical content in SwiftUI. 
 
 To work it makes use of the new iOS 14 `TabView` `PageTabViewStyle`.
@@ -8,6 +8,7 @@ To work it makes use of the new iOS 14 `TabView` `PageTabViewStyle`.
 Use like any other TabView:
 
 ```swift
+import SwiftUI
 import VTabView
 
 VTabView {
@@ -58,6 +59,10 @@ A workaround for this would be in tabItem to not use `Text` but only an `Image` 
 
 ## Other projects
 
-[CachedAsyncImage 🗃️](https://github.com/lorenzofiamingo/SwiftUI-CachedAsyncImage)
+[SwiftUI MapItemPicker 🗺️](https://github.com/lorenzofiamingo/SwiftUI-MapItemPicker)
 
-[SharedObject 🍱](https://github.com/lorenzofiamingo/SwiftUI-SharedObject)
+[SwiftUI PhotosPicker 🌇](https://github.com/lorenzofiamingo/SwiftUI-PhotosPicker)
+
+[SwiftUI CachedAsyncImage 🗃️](https://github.com/lorenzofiamingo/SwiftUI-CachedAsyncImage)
+
+[SwiftUI SharedObject 🍱](https://github.com/lorenzofiamingo/SwiftUI-SharedObject)
