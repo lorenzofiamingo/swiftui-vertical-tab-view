@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftUI-VerticalTabView",
+    name: "swiftui-vertical-tab-view",
     platforms: [
         .iOS(.v13),
         .macOS(.v10_15),
