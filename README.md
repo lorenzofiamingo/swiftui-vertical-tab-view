@@ -59,6 +59,8 @@ A workaround for this would be in tabItem to not use `Text` but only an `Image` 
 
 ## Other projects
 
+[SwiftUI AsyncButton 🖲️](https://github.com/lorenzofiamingo/swiftui-async-button)
+
 [SwiftUI MapItemPicker 🗺️](https://github.com/lorenzofiamingo/swiftui-map-item-picker)
 
 [SwiftUI PhotosPicker 🌇](https://github.com/lorenzofiamingo/swiftui-photos-picker)
