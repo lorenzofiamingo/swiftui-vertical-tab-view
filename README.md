@@ -10,22 +10,32 @@ Use like any other TabView:
 ```swift
 import SwiftUI
 import VTabView
-
-VTabView {
+ 
+ ...
+ @State private var selectedIndex = 0
+VTabView(selection: $selectedIndex, indexPosition: .trailing) {
     Text("The First Tab")
         .tabItem {
             Image(systemName: "square.fill")
         }
+        .tag(0)
     Text("Another Tab")
         .tabItem {
             Image(systemName: "circle.fill")
         }
+        .tag(1)
     Text("The Last Tab")
         .tabItem {
             Image(systemName: "triangle.fill")
         }
+        .tag(2)
 }
-.tabViewStyle(PageTabViewStyle())
+.tabViewStyle(.page(indexDisplayMode: .always))
+.onAppear {
+    // White dots won't appear on white background.
+    UIPageControl.appearance().currentPageIndicatorTintColor = .green
+    UIPageControl.appearance().pageIndicatorTintColor = UIColor.green.withAlphaComponent(0.2)
+}
 ```
 
 You can also move index to the right
